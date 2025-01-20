@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calc {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите выражение (например, 10 + 20:");
+        System.out.println("Введите выражение (например, 10 + 20):");
         String expression = scanner.nextLine();
 
         expression = expression.replace(" ", "");
